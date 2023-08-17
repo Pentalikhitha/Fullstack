@@ -1,0 +1,20 @@
+a:hover{
+	color:red;
+}
+a:visited{
+	color:green;
+}
+a:active{
+	color:yellow;
+}
+div{
+	background-color:pink;
+	height:50px;
+	width:100px;
+}
+div:hover{
+	background-color:red;
+	height:30px;
+	width:50px;
+
+}
