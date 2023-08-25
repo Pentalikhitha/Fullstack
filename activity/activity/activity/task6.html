@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 6(Fabonacci sequence)</title>
+</head>
+<body>
+	<h3>Fabonacci Sequence</h3>
+	<script type="text/javascript">
+		function fb(a){
+			let seq=[1,2];
+			for(let i=2;i<a;i++){
+				seq[i]=seq[i-1]+seq[i-2];
+			}
+			return seq
+		}
+		const givennum=20
+		const seq=fb(givennum);
+		document.write(`fibonacci sequence up to the given number ${givennum}:${seq.join(',')}`);
+	</script>
+
+</body>
+</html>
